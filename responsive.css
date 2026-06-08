@@ -1,0 +1,174 @@
+@media (max-width:768px){
+
+  /* Navbar */
+  nav{
+    flex-direction:column;
+    align-items:center;
+    padding:10px;
+  }
+
+  .logo{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .links{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .links a{
+    font-size:14px;
+    margin:5px;
+  }
+
+  /* Home */
+  .home{
+    flex-direction:column;
+    min-height:auto;
+    padding:20px;
+  }
+
+  .content{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:10px;
+  }
+
+  .image{
+  width:100%;
+  max-width:320px;
+  height:auto;
+  margin:20px auto;
+  overflow:hidden;
+  border-radius:30px;
+}
+
+.image img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:30px;
+}
+
+  h1{
+    font-size:32px;
+  }
+
+  p{
+    font-size:18px;
+  }
+
+  button{
+    width:100%;
+    margin:10px 0;
+    font-size:18px;
+  }
+
+  /* About */
+  section{
+    height:auto;
+  }
+
+  .About{
+    flex-direction:column;
+    align-items:center;
+    height:auto;
+  }
+
+  .about_image{
+  width:90%;
+  height:auto;
+  margin:20px auto;
+  overflow:hidden;
+  border-radius:30px;
+}
+
+.about_image img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:30px;
+}
+
+  .about_card{
+    width:90%;
+    height:auto;
+    margin:20px auto;
+  }
+
+  .about_card p{
+    font-size:18px;
+    padding:20px;
+  }
+
+  /* Detail Box */
+  .detail{
+    margin-left:20px;
+    margin-right:20px;
+    font-size:16px;
+  }
+
+  /* Core Values */
+  .container{
+    grid-template-columns:1fr;
+    gap:15px;
+  }
+
+  .card{
+    margin:10px;
+  }
+
+  /* Projects */
+  .box{
+    grid-template-columns:1fr;
+  }
+
+  .box1{
+    margin:15px;
+  }
+
+  /* Gallery */
+  .gallery_card{
+    grid-template-columns:1fr;
+  }
+
+  .pic1{
+    margin:15px;
+  }
+
+  /* Join */
+  .joinpara{
+    margin:20px;
+    height:auto;
+    font-size:18px;
+    padding:20px;
+  }
+
+  .volunteer,
+  .support{
+    width:90%;
+    margin:10px auto;
+    display:block;
+    font-size:20px;
+  }
+
+  /* Contact */
+  .contact{
+    text-align:center;
+  }
+
+  .contactpara{
+    font-size:20px;
+  }
+
+  .social_links a{
+    font-size:18px;
+  }
+
+  .copyright{
+    font-size:18px;
+  }
+}
